@@ -1,0 +1,33 @@
+{
+  "name": "avaxies-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "lint:sol": "solhint -f table contracts/**/*.sol",
+    "start": "npx hardhat run scripts/deploy.js --network fuji"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.3.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.4.2",
+    "avalanche": "^3.12.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.3",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.6",
+    "solhint-plugin-prettier": "0.0.5"
+  }
+}
